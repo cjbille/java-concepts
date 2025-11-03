@@ -1,10 +1,20 @@
 package com.cjbdevlabs.advanced;
 
 public class Reflection {
+
     /*
     NOTE: Reflection should rarely be used. If there is another way to solve the problem in a non-reflective way, use that.
     More information on reflection API can be found here: https://dev.java/learn/reflection/intro/
      */
+
+    /*
+    -- Add to main method to execute --
+
+    var someList = new ArrayList<String>();
+    var clazz = someList.getClass();
+    System.out.println(clazz.getSimpleName());
+     */
+
     /*
     -- Can find different types on the class --
     isAnnotation()
