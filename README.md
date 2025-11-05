@@ -6,17 +6,18 @@ A personal reference and playground for Java concepts I want to remember — fro
 
 ## 📁 Structure
 
-| Folder | Description |
-|--------|--------------|
-| **basics/** | Core language features: variables, loops, control flow |
-| **oop/** | Object-oriented principles — classes, interfaces, inheritance |
-| **collections/** | Lists, Maps, Sets, and collection utilities |
-| **streams/** | Java Streams API examples |
-| **concurrency/** | Multithreading, `ExecutorService`, `CompletableFuture` |
-| **functional/** | Lambdas, method references, functional interfaces |
-| **io/** | Input/output operations using `java.io` and `java.nio` |
-| **advanced/** | Generics, reflection, annotations |
-| **snippets/** | Miscellaneous utilities and small experiments |
+| Folder              | Description                                                   |
+|---------------------|---------------------------------------------------------------|
+| **basics/**         | Core language features: variables, loops, control flow        |
+| **oop/**            | Object-oriented principles — classes, interfaces, inheritance |
+| **collections/**    | Lists, Maps, Sets, and collection utilities                   |
+| **streams/**        | Java Streams API examples                                     |
+| **concurrency/**    | Multithreading, `ExecutorService`, `CompletableFuture`        |
+| **functional/**     | Lambdas, method references, functional interfaces             |
+| **io/**             | Input/output operations using `java.io` and `java.nio`        |
+| **advanced/**       | Generics, reflection, annotations                             |
+| **snippets/**       | Miscellaneous utilities and small experiments                 |
+| **designpatterns/** | Design patterns: creational, structural, behavioral           |
 
 ---
 
