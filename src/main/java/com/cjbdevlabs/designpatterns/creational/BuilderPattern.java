@@ -8,7 +8,7 @@ with different parameters.
  */
 public class BuilderPattern {
 
-     static class Person {
+    static class Person {
 
         private final String firstName;
         private final String middleName;
@@ -41,7 +41,7 @@ public class BuilderPattern {
                     '}';
         }
 
-         static class PersonBuilder {
+        static class PersonBuilder {
 
             private final String firstName;
             private String middleName;
@@ -92,7 +92,7 @@ public class BuilderPattern {
 
         // with builder pattern
         Person person1 = new Person.PersonBuilder("Tracy", "Westbay")
-                .dateOfBirth(LocalDate.of(1985,1,1))
+                .dateOfBirth(LocalDate.of(1985, 1, 1))
                 .emailAddress("tracy@example.com")
                 .build();
         Person person2 = new Person.PersonBuilder("Jerome", "Donaldson")
