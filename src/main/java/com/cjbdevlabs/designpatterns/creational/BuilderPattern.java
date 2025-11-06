@@ -8,7 +8,8 @@ with different parameters.
  */
 public class BuilderPattern {
 
-    public static class Person {
+     static class Person {
+
         private final String firstName;
         private final String middleName;
         private final String lastName;
@@ -40,7 +41,8 @@ public class BuilderPattern {
                     '}';
         }
 
-        public static class PersonBuilder { // convention to name it builder
+         static class PersonBuilder {
+
             private final String firstName;
             private String middleName;
             private final String lastName;
@@ -73,13 +75,14 @@ public class BuilderPattern {
                 return this;
             }
 
-            public Person build() { // another convention
+            public Person build() {
                 return new Person(this);
             }
         }
     }
 
     static class SalesLeadTracker {
+
 //        Person person1 = new Person("Tracy", null,
 //                "Westbay", LocalDate.of(1985,1,1),
 //                "tracy@example.com",null);

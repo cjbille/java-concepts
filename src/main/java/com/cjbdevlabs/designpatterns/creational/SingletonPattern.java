@@ -7,11 +7,10 @@ threads. Known as an anti-pattern because it violates the single responsibility 
  */
 public class SingletonPattern {
 
-    public enum PrintSpooler { // making an enum means it is thread safe since enums are thread safe by default in java
-
+     enum PrintSpooler { // making an enum means it is thread safe since enums are thread safe by default in java
         INSTANCE;
 
-        public static PrintSpooler getInstance() {
+        static PrintSpooler getInstance() {
             return INSTANCE;
         }
 
@@ -20,7 +19,7 @@ public class SingletonPattern {
         }
     }
 
-    public class DocumentPrinter {
+    static class DocumentPrinter {
 
         void printDocument() {
             var spooler = PrintSpooler.getInstance();
@@ -28,7 +27,7 @@ public class SingletonPattern {
         }
     }
 
-    public class ImagePrinter {
+    static class ImagePrinter {
 
         void printImage() {
             var spooler = PrintSpooler.getInstance();
