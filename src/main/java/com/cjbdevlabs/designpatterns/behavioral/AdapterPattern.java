@@ -1,4 +1,4 @@
-package com.cjbdevlabs.designpatterns.creational;
+package com.cjbdevlabs.designpatterns.behavioral;
 
 /*
 A structural design pattern that allows incompatible interfaces to work together by creating a middle layer, the

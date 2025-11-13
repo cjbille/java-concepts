@@ -23,7 +23,20 @@ A personal reference and playground for Java concepts I want to remember — fro
 
 ## 🧩 How to use
 Each folder contains runnable examples and a `notes.md` file with short explanations, gotchas, and tips.
-
 You can run examples using:
 ```bash
 javac Basics/Variables.java && java Basics.Variables
+```
+
+---
+
+## Most used Design Patterns
+- Singleton
+- Factory Method
+- Builder
+- Adapter
+- Decorator
+- Observer
+- Strategy
+- Command
+- Facade
