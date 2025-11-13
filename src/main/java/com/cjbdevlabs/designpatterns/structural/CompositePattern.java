@@ -1,4 +1,4 @@
-package com.cjbdevlabs.designpatterns.behavioral;
+package com.cjbdevlabs.designpatterns.structural;
 
 import java.util.ArrayList;
 import java.util.List;

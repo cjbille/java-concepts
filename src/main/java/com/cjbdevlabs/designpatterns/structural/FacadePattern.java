@@ -1,4 +1,4 @@
-package com.cjbdevlabs.designpatterns.behavioral;
+package com.cjbdevlabs.designpatterns.structural;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;

@@ -1,4 +1,4 @@
-package com.cjbdevlabs.designpatterns.behavioral;
+package com.cjbdevlabs.designpatterns.structural;
 
 /*
 Proxy is a class that controls access to the functionality of another class.

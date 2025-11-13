@@ -1,4 +1,4 @@
-package com.cjbdevlabs.designpatterns.behavioral;
+package com.cjbdevlabs.designpatterns.structural;
 
 /*
 Change the behavior of an object without creating a sub class

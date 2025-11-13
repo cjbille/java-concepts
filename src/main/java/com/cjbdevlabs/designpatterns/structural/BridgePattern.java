@@ -1,4 +1,4 @@
-package com.cjbdevlabs.designpatterns.behavioral;
+package com.cjbdevlabs.designpatterns.structural;
 
 /*
 Use composition over inheritance
